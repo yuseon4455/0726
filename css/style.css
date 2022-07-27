@@ -7,7 +7,7 @@
 :root {
         --main-color: #009688;
         --bg-color: #ffffff;
-        --point-color:#6a6a6a;
+        --sub-color:#6a6a6a;
         --text-color: #666666; 
       }
 
@@ -26,7 +26,7 @@ header {
     width: 960px;
     height: 200px;
     z-index: 999;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 header h1 {
     position: absolute;
@@ -86,7 +86,7 @@ header h1 {
   .slider {
     width: 960px;
     height: 350px;
-    outline: 2px solid yellowgreen;
+    /* outline: 2px solid yellowgreen; */
     overflow: hidden;
   }
   
@@ -111,36 +111,49 @@ header h1 {
 
 
   .col-banner{
-    outline: 1px solid #666;
+    /* outline: 1px solid #666; */
     flex: 1;
   }
   
   .col-banner h1{
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
     flex: 1;
   }
+  .col-banner p {
+    margin-bottom: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .col-banner1 h1{
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
     flex: 1;
   }
   .col-banner1 {
-
+    flex: 1;
     outline: 1px solid red;
   }
   
 
   .col-banner2 h1{
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
+    flex: 1;
   }
 
-  .col-banner2 img{
-    width: 150px;
-    height: 150px;
+  .col-banner2 {
     flex: 1;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+  }
+
+  .col-banner2 img {
+    width: 200px;
+    height: 130px;
+    margin-left: 40px;
   }
   
   footer{
